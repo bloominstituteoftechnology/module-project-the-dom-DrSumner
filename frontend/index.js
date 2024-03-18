@@ -51,7 +51,7 @@ function moduleProject1() {
   const countdownn = setInterval(function() { counter--, countdown.textContent = counter <= 0 ? "Liftoff! 🚀": `T-minus ${counter}...`}, 1000)
   // 👉 TASK 5 - Build a "Friends" widget
   //  ✨ add your code here
- // console.log(people)
+ // console.log(people)?
   const rando = people[Math.floor(Math.random() * 15)]
   //console.log(rando.fname)
  // console.log(rando.lname)
