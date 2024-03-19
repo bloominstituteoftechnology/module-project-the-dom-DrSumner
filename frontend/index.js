@@ -58,13 +58,15 @@ function moduleProject1() {
   //console.log(rando.dateOfBirth)
   //console.log(rando.friends)
   let friends = []
-  for(let i = 0; i < people.length; i++){
+ 
     
-  rando.friends.forEach( id => {if(id == people[i].id){
+  rando.friends.forEach( id => {
+     for(let i = 0; i < people.length; i++){
+    if( people[i].id == id){
     friends.push(people[i])
-  }})
-}
-//console.log(friends)
+  }}})
+
+console.log(friends)
 let friendList = ''
 for(let i = 0; i < friends.length; i++){
   
